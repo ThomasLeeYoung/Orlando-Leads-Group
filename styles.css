@@ -1,6 +1,7 @@
 
 body {
   padding-top: 330px;
+  background-color:url("images/grey.png")
 }
 
 .sticky-shrinknav-menu {
@@ -37,7 +38,7 @@ body {
       -ms-transform: translateY(-1.875rem);
           transform: translateY(-1.875rem);
   margin-bottom: 0;
-  color: #fefefe;
+  color: white;
 }
 
 .sticky-shrinknav-header {
@@ -59,7 +60,7 @@ body {
   left: 0;
   overflow: hidden;
   transition: all 0.5s ease;
-  background-image: url("http://thebeast.ru/wp-content/uploads/2016/02/stock-footage-business-meeting-businessman-having-a-conversation-discussion-talking-silhouette-business.jpg");
+  background-image: url("images/background.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -101,7 +102,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   }
 }
 
-.holy-grail-header,
+.holy-grail-header hidden,
 .holy-grail-left,
 .holy-grail-middle,
 .holy-grail-right,
@@ -109,6 +110,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   padding: 1rem;
   border: 1px solid #ededed;
   background-color: #ededed;
+
 }
 
 .holy-grail-header {
@@ -154,6 +156,12 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
       grid-column-start: 1;
   grid-column-end: 4;
 }
+
+p {
+  text-align: center;
+}
+
+
 
 
 
